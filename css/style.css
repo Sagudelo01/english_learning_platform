@@ -1,4 +1,6 @@
-/* INICIO CUADRO DE CARGA */
+* {
+    box-sizing: border-box;
+}
 
 body, html {
     height: 100%;
@@ -9,15 +11,9 @@ body, html {
     padding:0;
     position:relative;
 }
-h1 {
-    color:#4a4a4a;
-    text-align:center;
-}
-img {
-    margin: 0 auto;
-    display:block;
-}
-/*PRELOADING------------ */
+
+
+/* INICIO CUADRO DE CARGA */
 
 /* FONDO */
 #overlayer {
@@ -25,7 +21,7 @@ img {
     height:100%;  
     position:fixed;
     z-index:9999;
-    background:#4a4a4a;
+    background:#e8e6e1;
 }
 /* FONDO */
 
