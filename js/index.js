@@ -15,8 +15,8 @@ window.addEventListener('load', () => {
 // INICIO ANIMACIÓN DE LA IMAGEN DEL LOGO
 setInterval(() => {
     const img = document.querySelector('.animate__bounce');
-    img.classList.remove('animate__bounce'); // Quita la clase
-    void img.offsetWidth;  // Truco para reiniciar
-    img.classList.add('animate__bounce'); // La pone de nuevo
-}, 10000); //10 segundos
+    img.classList.remove('animate__bounce'); 
+    void img.offsetWidth;  
+    img.classList.add('animate__bounce'); 
+}, 10000); //10 se repite cada 10 segundos
 // FIN ANIMACIÓN DE LA IMAGEN DEL LOGO
