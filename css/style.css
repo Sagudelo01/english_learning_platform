@@ -53,7 +53,8 @@ body, html {
 }
 /* RELLENO */
 
-/* ANIMACION */
+
+/* ANIMACION DEL CUADRO PRELOADER */
 @keyframes loader {
     0% {
         transform: rotate(0deg);
@@ -96,20 +97,25 @@ body, html {
         height: 0%;
     }
 }
+/* FIN ANIMACION DEL CUADRO PRELOADER */
+
+
 /* FIN CUADRO DE CARGA */
 
 
-/* INICIO COLOR DEL NAVAR */
+
+
+/* INICIO COLOR DE FONDO DEL NAVBAR */
 .bg-body-tertiary {
     background-color: #77B87A !important; 
 }
-/* FIN COLOR DEL NAVAR */
+/* FIN COLOR DE FONDO DEL NAVBAR */
 
 
 
 
 
-/* INICIO FOOTER STYLES */
+/* INICIO ESTILOS DEL FOOTER */
 
 .footer {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
@@ -298,4 +304,4 @@ body, html {
     }
 }
 
-/* FIN FOOTER STYLES */
+/* FIN ESTILOS DEL FOOTER */
