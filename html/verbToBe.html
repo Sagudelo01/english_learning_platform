@@ -70,18 +70,31 @@
           />
         </a>
 
-        <!-- Toggle button -->
-        <button
-          data-mdb-collapse-init
-          class="navbar-toggler"
-          type="button"
-          data-mdb-target="#navbarButtonsExample"
-          aria-controls="navbarButtonsExample"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
+        <!-- INICIO BOTONES DUOLINGO y MENU HAMBURGUESA  LA CLASE DE BOOTSTRAP:   order-lg-last: ordena el elemento al final en dispositivos grandes o sea el boton de duolingo-->
+        <div class="d-flex align-items-center order-lg-last">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <a
+            data-mdb-ripple-init
+            class="btn btn-success px-3"
+            href="https://es.duolingo.com/"
+            target="_blank"
+            role="button"
+            title="Practicar en Duolingo"
+          >
+            <i class="fas fa-language fa-lg"></i>
+          </a>
+        </div>
+        <!-- FIN BOTONES DUOLINGO y MENU HAMBURGUESA -->
 
         <!-- INICIO LINKS NAVEGACIÓN DE TALLERES -->
         <div class="collapse navbar-collapse" id="navbarButtonsExample">
@@ -124,23 +137,7 @@
               >
             </li>
           </ul>
-
           <!-- FIN LINKS NAVEGACIÓN DE TALLERES-->
-
-          <!-- INICIO BOTONES -->
-          <div class="d-flex align-items-center">
-            <a
-              data-mdb-ripple-init
-              class="btn btn-success px-3"
-              href="https://es.duolingo.com/"
-              target="_blank"
-              role="button"
-              title="Practicar en Duolingo"
-            >
-              <i class="fas fa-language fa-lg"></i>
-            </a>
-          </div>
-          <!-- FIN BOTONES -->
         </div>
       </div>
     </nav>
@@ -148,11 +145,11 @@
 
     <!-- INICIO MINI HERO VERB TO BE WARM UP -->
 
-    <div class="py-5 mb-5 text-dark" style="background-color: #C9B9B9">
+    <div class="py-5 mb-5 text-dark" style="background-color: #c9b9b9">
       <div class="container text-center">
         <h1
           class="display-5 fw-bold"
-          style="font-family: 'Playfair Display', serif"
+          style="font-family: &quot;Playfair Display&quot;, serif"
         >
           Verb to Be: Learn & Practice
         </h1>
@@ -369,7 +366,10 @@
             <div class="card-body p-4">
               <h5 class="fw-bold mb-3">Audio 1: Introductions</h5>
               <audio controls class="w-100 mb-3 rounded-pill shadow-sm">
-                <source src="../assets/audio/audioVerbToBeTom.ogg" type="audio/ogg" />
+                <source
+                  src="../assets/audio/audioVerbToBeTom.ogg"
+                  type="audio/ogg"
+                />
               </audio>
 
               <h6 class="fw-bold mb-3">Circle the correct answer:</h6>
@@ -404,7 +404,10 @@
 
               <h5 class="fw-bold mb-3 border-top pt-4">Audio 2: Who is who?</h5>
               <audio controls class="w-100 mb-3 rounded-pill shadow-sm">
-                <source src="../assets/audio/audioVerbToBeLaura.ogg" type="audio/ogg" />
+                <source
+                  src="../assets/audio/audioVerbToBeLaura.ogg"
+                  type="audio/ogg"
+                />
               </audio>
               <p class="text-muted">
                 Escucha a Laura y presta atención a las descripciones físicas.
@@ -452,8 +455,6 @@
     </div>
     <!-- FIN MINI HERO SECTION VERB TO BE SPEAKING-->
 
-    
-
     <!-- INICIO MINI HERO SECTION VERB TO BE REFLECTION-->
     <div class="container pb-5">
       <div class="row justify-content-center">
@@ -467,9 +468,7 @@
             <div class="card-body p-4">
               <h6 class="fw-bold mb-3">Preguntas finales para el grupo:</h6>
               <div class="mb-3">
-                <label class="form-label"
-                  >a) What did you learn today?</label
-                >
+                <label class="form-label">a) What did you learn today?</label>
                 <textarea
                   class="form-control"
                   rows="2"
@@ -501,11 +500,6 @@
     </div>
 
     <!-- FIN MINI HERO SECTION VERB TO BE REFLECTION-->
-
-
-
-
-
 
     <!-- INICIO FOOTER -->
     <footer class="footer">
@@ -544,20 +538,12 @@
         </div>
       </div>
 
-
-
-
-
       <!-- Copyright -->
       <div class="footer-bottom">
         <p>© 2026 English Workshops Hub. Todos los derechos reservados.</p>
       </div>
     </footer>
     <!-- FIN FOOTER -->
-
-
-
-
 
     <!-- FIN CONTENIDO PRINCIPAL -->
 

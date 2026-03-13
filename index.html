@@ -67,18 +67,31 @@
           class="animate__animated animate__bounce"
         />
 
-        <!-- Toggle button -->
-        <button
-          data-mdb-collapse-init
-          class="navbar-toggler"
-          type="button"
-          data-mdb-target="#navbarButtonsExample"
-          aria-controls="navbarButtonsExample"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
+        <!-- INICIO BOTONES DUOLINGO y MENU HAMBURGUESA  LA CLASE DE BOOTSTRAP:   order-lg-last: ordena el elemento al final en dispositivos grandes o sea el boton de duolingo-->
+        <div class="d-flex align-items-center order-lg-last">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <a
+            data-mdb-ripple-init
+            class="btn btn-success px-3"
+            href="https://es.duolingo.com/"
+            target="_blank"
+            role="button"
+            title="Practicar en Duolingo"
+          >
+            <i class="fas fa-language fa-lg"></i>
+          </a>
+        </div>
+        <!-- FIN BOTONES DUOLINGO y MENU HAMBURGUESA -->
 
         <!-- INICIO LINKS NAVEGACIÓN DE TALLERES -->
         <div class="collapse navbar-collapse" id="navbarButtonsExample">
@@ -90,45 +103,42 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/adjetivosDemostrativos.html">Adjetivos Demostrativos</a>
+              <a class="nav-link" href="../html/adjetivosDemostrativos.html"
+                >Adjetivos Demostrativos</a
+              >
             </li>
           </ul>
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/preposiciones.html">Preposiciones</a>
+              <a class="nav-link" href="../html/preposiciones.html"
+                >Preposiciones</a
+              >
             </li>
           </ul>
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/cantidadesConThereIsyThereAre.html">Cantidades Con There Is y There Are</a>
+              <a
+                class="nav-link"
+                href="../html/cantidadesConThereIsyThereAre.html"
+                >Cantidades Con There Is y There Are</a
+              >
             </li>
           </ul>
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/presenteSimple.html">Presente Simple</a>
+              <a class="nav-link" href="../html/presenteSimple.html"
+                >Presente Simple</a
+              >
             </li>
           </ul>
-
           <!-- FIN LINKS NAVEGACIÓN DE TALLERES-->
-
-          <!-- INICIO BOTONES -->
-          <div class="d-flex align-items-center">
-            <a
-              data-mdb-ripple-init
-              class="btn btn-success px-3"
-              href="https://es.duolingo.com/"
-              target="_blank"
-              role="button"
-              title="Practicar en Duolingo"
-            >
-              <i class="fas fa-language fa-lg"></i>
-            </a>
-          </div>
-          <!-- FIN BOTONES -->
         </div>
+
+
+        
       </div>
     </nav>
     <!-- FIN Navbar -->
@@ -153,14 +163,14 @@
           <h1
             class="display-5 fw-bold lh-1 mb-3"
             style="
-              font-family: 'Playfair Display', serif;
+              font-family: &quot;Playfair Display&quot;, serif;
               color: #2c3e50;
             "
           >
             Tu camino al inglés empieza con un
             <span class="text-success">diagnóstico</span>
           </h1>
-          <p class="lead" style="font-family: 'Manrope', sans-serif">
+          <p class="lead" style="font-family: &quot;Manrope&quot;, sans-serif">
             Para asegurar tu aprendizaje, el primer paso es conocer tu nivel.<br />
             Completa esta <strong>Evaluación Diagnóstica</strong> antes de
             iniciar<br />

@@ -70,18 +70,31 @@
           />
         </a>
 
-        <!-- Toggle button -->
-        <button
-          data-mdb-collapse-init
-          class="navbar-toggler"
-          type="button"
-          data-mdb-target="#navbarButtonsExample"
-          aria-controls="navbarButtonsExample"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
+        <!-- INICIO BOTONES DUOLINGO y MENU HAMBURGUESA  LA CLASE DE BOOTSTRAP:   order-lg-last: ordena el elemento al final en dispositivos grandes o sea el boton de duolingo-->
+        <div class="d-flex align-items-center order-lg-last">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <a
+            data-mdb-ripple-init
+            class="btn btn-success px-3"
+            href="https://es.duolingo.com/"
+            target="_blank"
+            role="button"
+            title="Practicar en Duolingo"
+          >
+            <i class="fas fa-language fa-lg"></i>
+          </a>
+        </div>
+        <!-- FIN BOTONES DUOLINGO y MENU HAMBURGUESA -->
 
         <!-- INICIO LINKS NAVEGACIÓN DE TALLERES -->
         <div class="collapse navbar-collapse" id="navbarButtonsExample">
@@ -93,19 +106,25 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/adjetivosDemostrativos.html">Adjetivos Demostrativos</a>
+              <a class="nav-link" href="../html/adjetivosDemostrativos.html"
+                >Adjetivos Demostrativos</a
+              >
             </li>
           </ul>
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/preposiciones.html">Preposiciones</a>
+              <a class="nav-link" href="../html/preposiciones.html"
+                >Preposiciones</a
+              >
             </li>
           </ul>
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/cantidadesConThereIsyThereAre.html"
+              <a
+                class="nav-link"
+                href="../html/cantidadesConThereIsyThereAre.html"
                 >Cantidades Con There Is y There Are</a
               >
             </li>
@@ -113,33 +132,16 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../html/presenteSimple.html">Presente Simple</a>
+              <a class="nav-link" href="../html/presenteSimple.html"
+                >Presente Simple</a
+              >
             </li>
           </ul>
-
           <!-- FIN LINKS NAVEGACIÓN DE TALLERES-->
-
-          <!-- INICIO BOTONES -->
-          <div class="d-flex align-items-center">
-            <a
-              data-mdb-ripple-init
-              class="btn btn-success px-3"
-              href="https://es.duolingo.com/"
-              target="_blank"
-              role="button"
-              title="Practicar en Duolingo"
-            >
-              <i class="fas fa-language fa-lg"></i>
-            </a>
-          </div>
-          <!-- FIN BOTONES -->
         </div>
       </div>
     </nav>
     <!-- FIN Navbar -->
-
-
-    
 
     <!-- INICIO MINI HERO SECTION  READING-->
 
@@ -147,7 +149,7 @@
       <div class="container text-center">
         <h1
           class="display-5 fw-bold text-primary"
-          style="font-family: 'Playfair Display', serif"
+          style="font-family: &quot;Playfair Display&quot;, serif"
         >
           English Diagnostic Test
         </h1>
@@ -181,8 +183,9 @@
                 1. Answer True (T) or False (F) - (10 pts)
               </h6>
 
-              <div class="col-10 mx-auto pe-md-5"> <!-- Padding a la derecha para que visualmente se vea centrado -->
-  
+              <div class="col-10 mx-auto pe-md-5">
+                <!-- Padding a la derecha para que visualmente se vea centrado -->
+
                 <div class="row g-2 align-items-center mb-2">
                   <div class="col-6">a) Tom is 12 years old.</div>
                   <div class="col-6">
@@ -248,9 +251,6 @@
 
     <!-- FIN MINI HERO SECTION READING-->
 
-
-    
-
     <!-- INICIO MINI HERO SECTION LISTENING-->
     <div class="container pb-5">
       <div class="row justify-content-center">
@@ -269,7 +269,10 @@
                 <h5 class="fw-bold text-dark">Listening Audio</h5>
                 <div class="d-flex justify-content-center">
                   <audio controls class="w-75 mt-2 rounded-pill">
-                    <source src="../assets/audio/audioDiagnostico.ogg" type="audio/ogg">
+                    <source
+                      src="../assets/audio/audioDiagnostico.ogg"
+                      type="audio/ogg"
+                    />
                     Tu navegador no soporta el audio.
                   </audio>
                 </div>
@@ -316,7 +319,7 @@
                   </div>
                   <div class="col-6">
                     <select class="form-select">
-                      <option selected >Select...</option>
+                      <option selected>Select...</option>
                       <option value="10">10</option>
                       <option value="11">11</option>
                       <option value="12">12</option>
@@ -360,10 +363,6 @@
       </div>
     </div>
     <!-- FIN MINI HERO SECTION LISTENING-->
-
-
-    
-
 
     <!-- INICIO MINI HERO SECTION SPEAKING-->
     <div class="container pb-5">
@@ -413,9 +412,6 @@
       </div>
     </div>
 
-
-  
-
     <!-- FIN MINI HERO SECTION SPEAKING-->
 
     <!-- INICIO FOOTER -->
@@ -454,10 +450,6 @@
           </div>
         </div>
       </div>
-
-
-
-
 
       <!-- Copyright -->
       <div class="footer-bottom">
